@@ -1,0 +1,25 @@
+div{
+    width: 350px;
+    height: 250px;
+    background-color: lightseagreen;
+    margin-left: 550px;
+    margin-top: 250px;
+}
+#facebook{
+    color: aliceblue;
+    padding-inline: 100px;
+}
+.login{
+    color: aliceblue;
+    padding-inline: 75px;
+    padding-top: 30px;
+}
+
+body{
+    background-color:lightblue;
+}
+.signup{
+    color: darkred;
+    background-color:lightgreen;
+    border: px;
+}

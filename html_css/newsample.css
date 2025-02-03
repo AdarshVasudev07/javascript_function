@@ -1,0 +1,33 @@
+body{
+    height: 200vh;
+}
+
+
+
+#css1{
+
+    background-color: aqua;
+    text-align: center;
+    
+    
+     
+}
+#css2{
+    background-color: #a52a2a;
+     position:fixed;
+    left: 300px; 
+    
+}
+#css3 h1{
+    color:blueviolet;
+    border: 2px solid;
+
+}
+#css3 p{
+    color: rgb(175, 115, 38);
+    position: fixed;
+    bottom: 10px; 
+    
+     
+
+}

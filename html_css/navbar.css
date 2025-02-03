@@ -1,0 +1,41 @@
+.nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+body{
+    background-color:lightgray;
+    margin:0px
+}
+.navitem{
+    display: flex;
+    gap: 60px;
+    /* position: absolute;
+    right: 20px; */
+    margin-right: 25px;
+}
+.navcenter{
+    background-color: white;
+    height: 50vh;
+    /* width: 550px; */
+    border: 20px;
+    padding: 250px;
+    margin: 20px;
+    /* margin-top: 3%; */
+    
+
+ 
+/* }
+.btn{
+    margin-left: 55vh;
+    margin-top: 2vh;
+    padding: 9px;
+    border-radius: 2%; */
+}
+
+
+   
+
+
