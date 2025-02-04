@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- <style>
+        .important{
+            font-weight: bold;
+            font-size: xx-large;
+            
+        }
+        .red{
+            color: red;
+        }
+    </style> -->
+</head>
+
+<body>
+<!-- <div style="display: flex;">
+    <p id="p1"> touch here</p>
+</div> -->
+<!-- <h1>heading1</h1>
+<h2>heading2</h2>
+
+<p>this is a  paragraph</p>
+
+<button>click to change</button>
+<div>this is important</div>
+<button id="btn">click to back</button>-->
+
+<button>Send an HTTP GET request to a page and get the result back</button>
+<script> 
+
+// $(document).ready(function(){
+//     $("p").on({
+//         mouseenter:function(){
+//             $(this).css("background-color", "lightgray")
+//         },
+//         mouseleave:function(){
+//             $(this).css("background-color", "lightblue")
+//         },
+//         click:function(){
+//             $(this).css("background-color", "yellow")
+//         }
+//     })
+        
+        
+// })
+
+// $(document).ready(function(){
+//     $("button").click(function(){
+//         $("h1,h2,p").addClass("red");
+//         $("div").addClass("important");
+
+//     })
+// })
+
+
+// $(document).ready(function(){
+//     $("#btn").click(function(){
+//         $("h1,h2,p").removeClass("red");
+//         $("div").removeClass("important");
+
+//     })
+// })
+
+$(document).ready(function(){
+  $("button").click(function(){
+    $.get("https://dummyjson.com/users", function(data){
+      alert("Data: " + JSON.stringify(data) + "\nStatus: " );
+    });
+  });
+});
+
+
+</script>
+
+</body>
+</html>
